@@ -1,0 +1,242 @@
+* {
+    margin:0px;
+    font-weight:18px;
+}
+body {
+    background-color: hsl(0,0%,98%);
+}
+.navbar {
+    display:flex;
+    background-color: white;
+    color: hsl(233,8%,62%);
+    justify-content: space-evenly;
+    height:50px;
+    align-items: center;
+}
+.logo {
+    display:flex;
+background-image: url("logo2.svg");
+height:20px;
+width:139px;
+position:relative;
+right:6rem;
+}
+.menu {
+    display:flex;
+    position:relative;
+    right:4rem;
+    border:transparent;
+    width:30%;
+    align-items:center;
+    justify-content:space-evenly;
+}
+.menu div {
+    height:50px;
+    display:flex;
+    align-items:center;
+}
+.menu  div:hover {
+    border-bottom: 5px solid hsl(136,65%,51%);
+}
+button {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border:transparent;
+    width:150px;
+    height:35px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius:30px;
+    background-image: linear-gradient(to right,hsl(136,65%,51%),hsl(192,70%,51%));
+    color:white;
+}
+/** 2nd **/
+.hero {
+    display:flex;
+    height:400px;
+    width:1550px;
+    background-color: hsl(0,0%,98%);
+    margin:0px;
+}
+.next {
+    height:300px;
+    margin-top:100px;
+    position:relative;
+    left:6rem;
+    width:200%;
+}
+.bank p {
+    font-size:2.5rem;
+    margin:0px;
+}
+.para p {
+    margin:0px;
+    color: hsl(233,8%,62%);
+}
+.next div {
+    margin-bottom: 20px;
+}
+.photo {
+    position: relative;
+    z-index:0;
+}
+.phone {
+    position:relative;
+    left:40rem;
+    z-index:+1;
+}
+/** 3rd **/
+.third {
+    height:450px;
+    background-color: hsl(220,16%,96%);
+    margin:0px;
+}
+.easy p {
+font-size:2rem;
+margin-top:2rem;
+margin-bottom:2rem ;
+}
+.icons {
+    display:flex;
+    justify-content: space-evenly;
+    margin-top:4rem;
+}
+.icons div {
+    width:17%;
+    height:170px;
+}
+.choose {
+    margin-left:5.8rem;
+    position: relative;
+    top:2rem;
+}
+.first p {
+    margin:0px;
+    color:hsl(233,8%,62%);
+}
+h6 {
+    font-size:1.2rem;
+    margin:0px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.second p {
+    margin:0px;
+    color:hsl(233,8%,62%);
+}
+.three p {
+margin:0px;
+color:hsl(233,8%,62%);
+}
+.fourth P {
+    margin:0px;
+    color:hsl(233,8%,62%);
+}
+/** fourth **/
+.articles {
+height:500px;
+background-color: hsl(0,0%,98%);
+}
+.latest {
+    font-size:2.5rem;
+    margin-top: 30px; 
+    margin-left:5rem; 
+}
+.photos {
+    display:flex;
+    justify-content: space-evenly;
+    margin-top:50px;
+}
+.money,.dish,.plane,.rain {
+    width:18%;
+    height:350px;
+    background-color: white;
+    border-radius:5%;
+}
+.rain div:hover {
+    color:hsl(136,65%,51%);
+    cursor: pointer;
+}
+.money div:hover {
+    color:hsl(136,65%,51%);
+    cursor: pointer;
+}
+.dish div:hover {
+    color:hsl(136,65%,51%);
+    cursor: pointer;
+}
+.plane div:hover {
+    color:hsl(136,65%,51%);
+    cursor: pointer;
+}
+.paisa {
+    width:100%;
+    height:150px;
+    border-top-left-radius: 3%;
+}
+.content {
+    margin-left:20px;
+}
+.content div {
+    margin-top:15px;
+}
+.dwo p {
+font-size:1.4rem;
+font-weight:600px;
+}
+.ek {
+    font-size:0.8rem;
+    color:hsl(233,8%,62%);
+}
+.gray p {
+    color:hsl(233,8%,62%);
+}
+/** last nav **/
+.last {
+    height:150px;
+    background-color: hsl(233,26%,24%);
+    display:flex;
+}
+.five {
+    margin-left: 115px;
+}
+.eb {
+background-image: url("logo2.svg");
+width:139px;
+height:20px;
+position:relative;
+top:30px;
+background-color: white;
+}
+.press {
+    margin-top: 70px;
+}
+.press div {
+    display:inline-block;
+    margin-right: 5px;
+}
+.insta div:hover {
+background-color:hsl(136,65%,51%);
+}
+.bheem p {
+    margin-bottom: 1rem;
+}
+.bheem {
+    margin-top: 2rem;
+    margin-left:12rem;
+    color:hsl(233,8%,62%);;
+}
+.bheem :hover {
+    color:hsl(136,65%,51%);
+    cursor: pointer;
+}
+.sahi {
+    margin-top:2rem;
+    margin-left:20rem;
+}
+.sahi p {
+margin-top: 1.5rem;
+color:hsl(233,8%,62%);;
+}
+
+
+
